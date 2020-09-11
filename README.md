@@ -56,5 +56,5 @@ Técnicas de Desenvolvimento de Algoritmos:
 4. 4. U. Manber, Algorithms: A Creative Approach, Addison-Wesley, 1989
 5. R. Sedgewick, Algorithms, Addison-Wesley, 2004
 
-> Conteúdo tirado dos slides do professor da disciplina Fábio Henrique Viduani Martinez - FACOM/UFMS
+> Conteúdo tirado dos slides do professor da disciplina **Fábio Henrique Viduani Martinez** - FACOM/UFMS; Todos os créditos reservados a ele.
 
