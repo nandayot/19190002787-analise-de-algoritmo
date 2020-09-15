@@ -148,11 +148,5 @@ $$
 
 ![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](.gitbook/assets/simetriatransposta.png)
 
-
-
-
-
-## Continua...
-
 > Conteúdo tirado dos slides do professor da disciplina **Fábio Henrique Viduani Martinez** - FACOM/UFMS; Todos os créditos reservados a ele.
 
