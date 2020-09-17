@@ -16,7 +16,7 @@ Dada uma função $$g(n)$$ , denotamos $$\Theta (g(n))$$ o conjunto de funções
 
 $$\Theta (g(n))$$ = {$$f(n)$$: existem constantes positivas $$c_1$$ , $$c_2$$e $$n_0$$tais que $$0 \leq c_1g(n) \leq f(n) \leq c_2g(n)$$ para todo $$n \geq n_0$$ }.
 
-![](.gitbook/assets/notacaotheta.png)
+![](../.gitbook/assets/notacaotheta.png)
 
 $$g(n)$$é **assintoticamente justo** para $$f(n)$$ se $$f(n) \in g(n)$$e toda $$f(n) \in g(n)$$é **assintoticamente não negativa** por definição, sendo assim, $$g(n)$$também é.
 
@@ -36,7 +36,7 @@ para todo $$n \geq n_0$$
 
 ### Prova
 
-![](.gitbook/assets/primeiroex.jpg)
+![](../.gitbook/assets/primeiroex.jpg)
 
 Para substituir a expressão $$f(n) \in g(n)$$, usualmente escrevemos que $$f(n) \in g(n)$$.
 
@@ -52,7 +52,7 @@ $$O (g(n))$$ = {$$f(n)$$: existem constantes positivas $$c$$ ,e $$n_0$$tais que 
 
 A notação $$O$$ é uma parte da notação $$\Theta$$, pois ela é a definição somente do **limitante superior**. Neste caso é somente necessário descobrir duas constantes.
 
-![](.gitbook/assets/notacaoo.png)
+![](../.gitbook/assets/notacaoo.png)
 
 ### Como mostrar que $$2n^2 +n−2 = O(n^2)$$ ?
 
@@ -60,7 +60,7 @@ Temos que mostrar que  $$0 \leq 2n^2 +n−2 \leq cn^2$$, para todo $$n \geq n_0$
 
 ### Prova
 
-![](.gitbook/assets/segundoex.jpg)
+![](../.gitbook/assets/segundoex.jpg)
 
 ### Observações
 
@@ -76,7 +76,7 @@ Dada uma função $$g(n)$$ , denotamos $$\Omega (g(n))$$ o conjunto de funções
 
 $$\Omega (g(n))$$ = {$$f(n)$$: existem constantes positivas $$c$$ ,e $$n_0$$tais que $$0 \leq cg(n) \leq f(n)$$ para todo $$n \geq n_0$$ }.
 
-![](.gitbook/assets/notacaoomega.png)
+![](../.gitbook/assets/notacaoomega.png)
 
 Também podemos perceber que a notação $$\Omega$$também é uma parte da notação $$\Theta$$. Podemos dizer que a notação$$\Theta$$é a mais forte de todas. A notação $$\Omega$$é uma função que limita inferiormente $$f(n)$$ .
 
@@ -86,7 +86,7 @@ Basta mostrarmos que $$0 \leq cn^2 \leq 3n^2-3n +7$$ , para todo $$n \geq n_0$$.
 
 ### Prova
 
-![](.gitbook/assets/terceiroex.jpg)
+![](../.gitbook/assets/terceiroex.jpg)
 
 ### Obervações
 
@@ -134,19 +134,19 @@ $$
 
 ### Transitividade
 
-![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](.gitbook/assets/transitividade.png)
+![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](../.gitbook/assets/transitividade.png)
 
 ### Reflexividade
 
-![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](.gitbook/assets/relfexividade.png)
+![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](../.gitbook/assets/relfexividade.png)
 
 ### Simetria
 
-![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](.gitbook/assets/simetria.png)
+![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](../.gitbook/assets/simetria.png)
 
 ### Simetria Transposta
 
-![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](.gitbook/assets/simetriatransposta.png)
+![Imagem tirada dos slides do professor F&#xE1;bio, cr&#xE9;ditos reservados a ele.](../.gitbook/assets/simetriatransposta.png)
 
 > Conteúdo tirado dos slides do professor da disciplina **Fábio Henrique Viduani Martinez** - FACOM/UFMS; Todos os créditos reservados a ele.
 
