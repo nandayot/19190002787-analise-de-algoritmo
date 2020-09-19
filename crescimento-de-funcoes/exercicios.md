@@ -1,3 +1,7 @@
+---
+description: Exercícios resolvidos em aula.
+---
+
 # Exercícios
 
 ## 3.1-1\)
