@@ -50,7 +50,7 @@ Técnicas de Desenvolvimento de Algoritmos:
 
 ## Bibliografia
 
-1. T. H. Cormen, C. E. Leiserson, R. L. Rivest e C. Stein, [**Introduction to Algorithms**](https://web.ist.utl.pt/~fabio.ferreira/material/asa/clrs.pdf), 3a. ed., MIT Press, 2009 
+1. T. H. Cormen, C. E. Leiserson, R. L. Rivest e C. Stein, [**Introduction to Algorithms**](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf), 3a. ed., MIT Press, 2009 
 2. P. Feofiloff. Minicurso de Análise de Algoritmos, [http://www.ime.usp.br/∼pf/livrinho-AA/AA-BOOKLET.pdf](http://www.ime.usp.br/∼pf/livrinho-AA/AA-BOOKLET.pdf), 2011
 3. J. Kleinberg e E. Tardos, Algorithms Design, Addison-Wesley, 2006
 4. 4. U. Manber, Algorithms: A Creative Approach, Addison-Wesley, 1989
