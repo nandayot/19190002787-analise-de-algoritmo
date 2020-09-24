@@ -5,5 +5,7 @@
 * [Introdução à Análise de Algoritmos](introducao-a-analise-de-algoritmos.md)
 * [Crescimento de funções](crescimento-de-funcoes/README.md)
   * [Exercícios](crescimento-de-funcoes/exercicios.md)
-* [Divisão e conquista](divisao-e-conquista.md)
+* [Divisão e conquista](divisao-e-conquista/README.md)
+  * [Exercícios](divisao-e-conquista/exercicios.md)
+* [Heapsort](heapsort.md)
 

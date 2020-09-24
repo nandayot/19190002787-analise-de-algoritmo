@@ -34,25 +34,25 @@ Podemos resolver o problema utilizando força-bruta, ou seja, ir somando cada su
 
 Vejamos este problema com o vetor abaixo:
 
-![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](.gitbook/assets/vetorsomamax.png)
+![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](../.gitbook/assets/vetorsomamax.png)
 
 Agora tentem identificar o subvetor com soma máxima.
 
-![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](.gitbook/assets/vetorsomamax2.png)
+![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](../.gitbook/assets/vetorsomamax2.png)
 
 Como fazemos esse raciocínio utilizando divisão-e-conquista?
 
 Primeiro sabemos que podemos **dividir** o vetor em dois, considerando o **piso** caso seja ímpar. Assim temos 3 possibilidades de ocorrência da solidez dentro do vetor dividido. Sendo elas: a solidez na primeira metade, a solidez na segunda metade e a solidez entre as metades.
 
-![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](.gitbook/assets/vetorsomamax3.png)
+![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](../.gitbook/assets/vetorsomamax3.png)
 
 O algoritmo se comporta semelhante ao Merge Sort. Ele divide, como mostrado acima, o vetor em 3 partes. Ele divide a primeira metade, a segunda metade e a terceira ele some o meio. Vamos entender no algoritmo abaixo.
 
-![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](.gitbook/assets/solidezalgo.png)
+![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](../.gitbook/assets/solidezalgo.png)
 
 Podemos perceber que o algoritmo, recursivo, é quase idêntico ao Merge Sort, onde ele divide recursivamente o vetor e no final combina na linha 7. Vejamos o que a linha 7 executa:
 
-![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](.gitbook/assets/solidezmeioalgo.png)
+![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](../.gitbook/assets/solidezmeioalgo.png)
 
 A solidez meio vai percorrer, na linha 2, a **primeira metade** do vetor \(de cada chamada recursiva\), armazenando na variável $$z'$$ a soma máxima da primeira metade. Já na linha 7 ele vai armazenar na variável $$z''$$ a soma máxima da **segunda metade** da divisão do vetor \(de cada chamada recursiva\), no final, ele soma as duas variáveis \(o **meio** do vetor\) e devolve, completando a instrução.
 
@@ -62,7 +62,7 @@ A solidez meio vai percorrer, na linha 2, a **primeira metade** do vetor \(de ca
 
 Já o tempo de execução da Solidez II, perceba que o algoritmo além de executar o Solidez-Meio, que sabemos ser $$\Theta(n)$$,  ele faz **duas chamadas recursivas** com **metade** do tamanho do vetor. Sendo assim, temos a seguinte recorrência: 
 
-![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](.gitbook/assets/solidez2.png)
+![Imagem retirada dos slides do professor F&#xE1;bio Henrique Viduani Martinez.](../.gitbook/assets/solidez2.png)
 
 Está recorrência é a mesma que descobrimos para o algoritmo Merge Sort anteriormente. Sendo assim, já sabemos que seu tempo de exeução é: $$T(n) = Θ(nlgn)$$ .
 
@@ -74,7 +74,7 @@ Então seja $$T(n) = 2T(\lfloor n/2c \rfloor)+n$$ uma recorrência. Advinhamos q
 
 #### Prova
 
-![](.gitbook/assets/solidezprova.jpg)
+![](../.gitbook/assets/solidezprova.jpg)
 
 
 
