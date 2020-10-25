@@ -20,7 +20,7 @@ Um vetor que satisfaz essa propriedade é chamado de max-heap.
 
 É díficil enxergar esta propriedade olhando diretamente para um vetor. Mas o heap, pela propriedade, pode ser identificado como uma árvore cheia e assim pode ser representado visualmente.
 
-![](.gitbook/assets/heap.png)
+![](../.gitbook/assets/heap.png)
 
 Imagem: [https://simpledevcode.wordpress.com/2015/08/05/the-heap-data-structure-c-java-c/](https://simpledevcode.wordpress.com/2015/08/05/the-heap-data-structure-c-java-c/)
 
@@ -50,7 +50,7 @@ Dado um vetor de inteiros S com n &gt; 0 elementos e um índice i, se olharmos p
 
 ## Algoritmo _Desce_
 
-![](.gitbook/assets/algodesce.png)
+![](../.gitbook/assets/algodesce.png)
 
 ### Tempo de Execução
 
@@ -78,7 +78,7 @@ Com o algoritmo Desce, conseguimos usá-lo para transformar qualquer vetor de n�
 
 O algoritmo constroiMaxHeap faz isso com a ajuda do algoritmo Desce. Ele começa na metade da árvore no qual é o último nó com filhos, que garante que é uma subárvore max-heap e assim podemos começar a usar o algoritmo Desce. E depois ele vai subindo na árvore descendo elementos que precisam. 
 
-![](.gitbook/assets/maxheap.png)
+![](../.gitbook/assets/maxheap.png)
 
 ### Correção do algoritmo
 
@@ -94,7 +94,7 @@ Mas podemos fazer uma análise melhorada deste tempo considerando a altura do he
 
 Com os dois algoritmos que vimos acima podemos desenvolver um algoritmo de ordenação com auxílio desses dois procedimentos. 
 
-![](.gitbook/assets/heapsort.png)
+![](../.gitbook/assets/heapsort.png)
 
 Como sabemos o tempo de execução dos dois procedimentos que o HeapSort utiliza, conseguimos saber o tempo de exeução dele. Ele primeiramente constroi um vetor qualquer de n elementos em um max-heap utilizando o algoritmo ConstroiMaxHeap que tem tempo de execução $$O(n)$$ e executa o algoritmo Desce n-1 vezes com tempo de execução $$\Theta(lgn)$$. Então concluímos que o HeapSort tem tempo de execução $$\Theta(nlgn)$$.
 

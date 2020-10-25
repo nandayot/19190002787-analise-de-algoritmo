@@ -7,5 +7,10 @@
   * [Exercícios](crescimento-de-funcoes/exercicios.md)
 * [Divisão e conquista](divisao-e-conquista/README.md)
   * [Exercícios](divisao-e-conquista/exercicios.md)
-* [Heapsort](heapsort.md)
+* [Heapsort](heapsort/README.md)
+  * [Exercícios](heapsort/exercicios.md)
+* [QuickSort](quicksort/README.md)
+  * [Exercicios](quicksort/exercicios.md)
+* [Ordenação em Tempo Linear](ordenacao-em-tempo-linear.md)
+* [Seleção do k-ésimo menor elemento](selecao-do-k-esimo-menor-elemento.md)
 
