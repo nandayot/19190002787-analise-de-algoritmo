@@ -13,4 +13,6 @@
   * [Exercicios](quicksort/exercicios.md)
 * [Ordenação em Tempo Linear](ordenacao-em-tempo-linear.md)
 * [Seleção do k-ésimo menor elemento](selecao-do-k-esimo-menor-elemento.md)
+* [Programação Dinâmica](programacao-dinamica.md)
+* [Algoritmos Gulosos](algoritmos-gulosos.md)
 
